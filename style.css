@@ -1,0 +1,236 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*========== HOME =======*/
+.body-home {
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*====== HOMO LOGO ==========*/
+
+#home-logo-img{
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+
+/*========= HOME-PAGE-MENU ===========*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:white ;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== SPECIALS PAGE =========*/
+
+.header{
+        background-color: #323650;
+        width: 100%;
+        height: 59px;
+        top: 0;
+    
+        position: fixed;
+        overflow: hidden;
+    
+        text-align: center;
+}
+.header i{
+    margin-top: auto;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left:10px;
+    float: left;
+    color: white;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    
+    padding-bottom: 40px;
+    
+}
+/*======= Body SPECIALS ==========*/
+.body-specials {
+    background-image: url('pix/food-03.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /*=========== SPECIAL LIST ===========*/
+
+.special-list{
+    padding: 50px 10px 0px 5px;
+}
+.special-list a{
+    text-decoration: none;
+}
+.special-list-item{
+    border: initial;
+    background-color: grey;
+    height: 130px;
+    text-decoration: none;
+}
+.special-list-item img{
+   
+    width: 220px;
+    float: left;
+}
+.special-list-item h2{
+    padding: 10px 0px 0px 0px;
+    font-style: italic ;
+    color: white;
+    text-decoration: grey;
+    display: block;
+}
+.special-list-item p{
+    font-size: 20px;
+    font-style: italic ;
+    color: white;
+    text-decoration: none;
+}
+
+.special-list-item i{
+    float: right;   
+    padding:25px 15px 0px 0px;
+    font-size: 50px;
+    color: whitesmoke;
+}
+/*========= Meals ======*/
+#meals{
+    padding-top: 50px;
+    padding:0px 10px 0px 10px;
+
+    margin-left: 35px;
+    margin-right:25px;
+    
+}
+
+/*======== MEALS DETAILS ==========*/
+.meals-details{
+    margin-left: 25px;
+    margin-right:25px;
+    
+    
+}
+#meals-details img{
+    width: 100%;
+    padding-right: 15px;
+    padding-top: 60px;
+}
+
+#meals-details h1 {
+    text-align: center;
+    font-weight: bolder;   
+}
+#meals-details i{
+    font-size: 25px;
+    color: blue;
+    padding-left: 30px;
+}
+#meals-details p{
+
+    font-size: 20px;
+    display:inline-block;
+    padding-right:20px;
+}
+.meals-details-info p{
+    padding-left: 10px;
+}
+
+
+/*========= BODY-Mthunder =====*/
+.body-Mthunder{
+    background-color: ivory;
+
+}
+/*========== button ==========*/
+.button{
+    display: block;
+    background-color: slategrey;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 10px 0 20px 0px;
+}
+/*========= text area ==========*/
+textarea{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+/*====== closing =======*/
+.closing i{
+    font-size:40px;
+    
+}
+.closing h1{
+    text-align: center;
+}
+.closing img{
+    width: 100%;
+}
+/*======== RESPONSIVE LAYOUT ===========*/
+@media only screen and (min-width:600px) {
+    #meals {
+        width: 90%;
+        margin:auto;
+    }
+    #meals-details {
+        width: 100%;
+        margin: auto;
+    }
+   
+    
+    .special-list {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:1500px){
+    #meals {
+        width: 40%;
+        margin:auto;
+    }
+    #meals-details {
+        width: 100%;
+        margin: auto;
+    }
+   
+}
+@media only screen and (min-width:720px){
+    .body-specials{
+        background-image: url('pix/food-03.jpg');
+    } 
+    .special-list {
+        width: 100%;
+        margin: auto;
+    }
+}
